@@ -34,7 +34,7 @@ let names = ["boldo", "dorjo", "dondog", "bataa", "boogii", "haagii"];
 
 // function findMin(arr) {
 //   let minNum = arr[0];
-//   for (let i = 0; i < arr.length - 1; i++) {
+//   for (let i = 0; i <arr.length - 1; i++) {
 //     if (minNum > arr[i + 1]) {
 //       minNum = arr[i + 1];
 //     }
@@ -46,21 +46,21 @@ let names = ["boldo", "dorjo", "dondog", "bataa", "boogii", "haagii"];
 
 // dasgal-3 Array dotorh sondgoi min-g ol.
 
-let numbers = [12, 3, 123, 460, 5, 25, 12, 51, 26, 9, 333];
+// let numbers = [12, 3, 123, 460, 5, 25, 12, 51, 26, 9, 333];
 
-function OddMinNum(arr) {
-  let OddMinNum1 = arr[0];
-  for (let i = 0; i < arr.length - 1; i++) {
-    if (OddMinNum1 > arr[i + 1]) {
-      OddMinNum1 = arr[i + 1];
+// function OddMinNum(arr) {
+//   let OddMinNum1 = arr[0];
+//   for (let i = 0; i < arr.length - 1; i++) {
+//     if (OddMinNum1 > arr[i + 1]) {
+//       OddMinNum1 = arr[i + 1];
 
-      arr[i] % 2 === 1;
-    }
-  }
-  return OddMinNum1;
-}
-let answer = OddMinNum(numbers);
-console.log(answer);
+//       arr[i] % 2 ==1;
+//     }
+//   }
+//   return OddMinNum1;
+// }
+// let answer = OddMinNum(numbers);
+// console.log(answer);
 
 //Array dotroos MaxEden numberiig ol/
 

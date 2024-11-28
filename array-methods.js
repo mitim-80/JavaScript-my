@@ -27,7 +27,7 @@
 // let answer = findEdenNumbers(ages);
 // console.log(answer);
 
-// max eden toog hevle.
+// max even toog hevle.
 
 let ages = [22, 12, 54, 67, 88, 32, 36, 26, 39, 171, 57, 91];
 function findMaxNum(arr) {
