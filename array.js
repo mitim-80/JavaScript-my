@@ -49,15 +49,33 @@ let names = ["boldo", "dorjo", "dondog", "bataa", "boogii", "haagii"];
 let numbers = [12, 3, 123, 460, 5, 25, 12, 51, 26, 9, 333];
 
 function OddMinNum(arr) {
-  let OddMinNum = arr[0];
+  let OddMinNum1 = arr[0];
   for (let i = 0; i < arr.length - 1; i++) {
-    if (OddMinNum > arr[i + 1]) {
-      OddMinNum = arr[i + 1];
-    } else {
+    if (OddMinNum1 > arr[i + 1]) {
+      OddMinNum1 = arr[i + 1];
+
       arr[i] % 2 === 1;
     }
   }
-  console.log(OddMinNum);
+  return OddMinNum1;
 }
+let answer = OddMinNum(numbers);
+console.log(answer);
 
-OddMinNum(numbers);
+//Array dotroos MaxEden numberiig ol/
+
+let numbers = [12, 3, 123, 460, 5, 25, 12, 51, 26, 9, 333];
+
+function EdenMaxNum(arr) {
+  let EdenMaxNum1 = arr[0];
+  for (let i = 0; i < arr.length - 1; i++) {
+    if (EdenMaxNum1 < arr[i + 1]) {
+      EdenMaxNum1 = arr[i + 1];
+
+      arr[i] % 2 === 0;
+    }
+  }
+  return EdenMaxNum1;
+}
+let answer = EdenMaxNum(numbers);
+console.log(answer);
